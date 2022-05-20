@@ -1,0 +1,32 @@
+{
+	"products": [
+		{
+			"name": "Bread",
+			"number": "12",
+			"price": "4"
+
+			 },
+		{
+			"name": "Water",
+			"number": "16",
+			"price": "3"
+			 },
+		{
+			"name": "Beer",
+			"number": "4",
+			"price": "50"
+			 },
+		{
+			"name": "Rice",
+			"number": "1",
+			"price": "10"
+		},
+		{
+			"name": "Chocolate",
+			"number": "2",
+			"price": "7"
+		}
+
+
+	]
+}

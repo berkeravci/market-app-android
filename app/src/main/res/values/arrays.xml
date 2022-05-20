@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foods">
+        <item>Bread</item>
+        <item>Water</item>
+        <item>Beer</item>
+        <item>Rice</item>
+        <item>Chocolate</item>
+    </string-array>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4e4e4"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="ADD PRODUCT"
+        android:textColor="@color/teal_200"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:id="@+id/twname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Product Name"
+
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <EditText
+        android:id="@+id/twquan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <EditText
+        android:id="@+id/twprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="add"
+
+        android:text="ADD" />
+</LinearLayout>
